@@ -593,11 +593,11 @@ a.btn-mod{
   	color: #fff;
   	background: rgba(34,34,34, .9);
 	border: 2px solid transparent;
-	font-size: 12px;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-size: 19px !important;
+	font-weight: 500;
+	/*text-transform: uppercase;*/
 	text-decoration: none;
-	letter-spacing: 2px;
+	/*letter-spacing: 2px;*/
     
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -613,7 +613,7 @@ a.btn-mod{
 .btn-mod:focus,
 a.btn-mod:hover,
 a.btn-mod:focus{
-	font-weight: 700;
+	/*font-weight: 700;*/
 	color: rgba(255,255,255, .85);
   	background: rgba(0,0,0, .7);
 	text-decoration: none;
@@ -2327,7 +2327,7 @@ a.logo:hover{
 	background: #e41919;
 }
 .section-text{
-	font-size: 17px;
+	font-size: 19px;
 	font-weight: 400;
 	text-align: center;
 	color: #777;
@@ -2686,13 +2686,13 @@ a.logo:hover{
     height: 30px;
     line-height: 30px;
     padding: 0 30px;
-    background: rgba(0,0,0, .7);
+    background: #375acc;
     text-align: center;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ccc;
+    color: #fff;
     text-decoration: none;
     
     -webkit-background-size: cover;
