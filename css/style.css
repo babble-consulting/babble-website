@@ -1067,6 +1067,7 @@ a.btn-mod:focus{
 	
 	border: 4px double rgba(255,255,255, .6);
 }
+.bg-darken { background: rgba(0,0,0,0.4); }
 
 .hs-wrap-1{
 	max-width: 350px;
@@ -2122,7 +2123,9 @@ a.logo:hover{
 .bg-color-alfa .white{
 	color: #fff;
 }
-
+.bg-dark .section-text {
+  color: #aaa;
+}
 
 .bg-dark{
 	background-color: #222;
